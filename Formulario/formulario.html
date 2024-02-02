@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <H1>Formulario</H1>
+    <form method="post" target="_blank">
+        <label for="buscar">Busca en la pagina</label><br>
+        <input type="search"><br>
+        <fieldset>
+            <legend> Datos Personales</legend>
+        <label for="fname">Nombre</label><br>
+        <input type="text" id="fname" name="fname"  maxlength="10" min="3" placeholder="Pon aqui su Nombre"><br>
+        <label for="lname">Apellido</label><br>
+        <input type="text" id="lname" name="lname" maxlength="10" minlength="4" placeholder="Pon aqui su Apellido"><br>
+        <input type="submit" value="submit"><br>
+        <label for="fav-language">Elige el sexo</label><br>
+        <input type="radio" id="masculino" name="fav-language" value="Masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="Femenino" name="fav-language" value="Femenino">
+        <label for="Femenino">Femenino</label>
+        <input type="radio" id="Otros" name="fav-language" value="Otros">
+        <label for="Otros">Otros</label><br>
+        </fieldset>
+        <label for="checkbox">Elige el ocio</label><br>
+        <input type="checkbox" id="futbol" name="futbol" value="Futbol">
+        <label for="futbol">Futbol</label>
+        <input type="checkbox" id="baloncesto" name="baloncesto" value="Baloncesto">
+        <label for="baloncesto">Baloncesto</label><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="contra">Contrseña</label><br>
+        <input type="password" id="contra" name="contra"><br>
+        <label for="grado">¿Qué tal te a parecido la pagina web?</label><br>
+        <input type="range" id="grado" name="grado" value="0"><br>
+        <label for="fecha">Fecha de nacimiento</label><br>
+        <input type="date" id="fecha" name="fecha"><br>
+        <label for="años">Cuantos años tienes</label><br>
+        <input type="number" id="años" name="años" min="18" max="65"><br>
+        <label for="color">Color favorito</label><br>
+        <input type="color" id="color" name="color"><br>
+        <label for="tel">Telefono</label><br>
+        <input type="tel" id="tel" name="tel"><br>
+        <label for="curriculum">curriculum vitae</label><br>
+        <input type="file" id="curriculum" name="curriculum"><br>
+        <label for="hora">Fecha y hora de envio de formulario</label><br>
+        <input type="datetime-local" id="hora" name="hora"><br>
+        <label for="foto">Foto de perfil</label><br>
+        <input type="image" src="./img/img/whatsapp.svg"><br>
+        <label for="mes">Mes preferido par el vieje</label><br>
+        <input type="month" ><br>
+        <label for="hoa">Hora de entrar al trabajo</label><br>
+        <input type="time"><br>
+        <label for="url">URL</label><br>
+        <input type="url"><br>
+        <label for="semaa">Elije una semana en mayo o en junio</label><br>
+        <input type="week" name="semaa" id="semaa" min="2024-W18" max="2024-W28"><br>
+        <label for="Provincia">Elige la provincia</label>
+        <select name="Provincia" id="Provincia">
+            <option value="Badajoz">Badajoz</option>
+            <option value="Caceres">Caceres</option>
+        </select><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
